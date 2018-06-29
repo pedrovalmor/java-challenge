@@ -1,0 +1,9 @@
+curl -X POST -H "Content-Type: application/json" -d @data.json http://localhost:8080/graph
+
+curl -X GET http://localhost:8080/graph/1
+
+curl -X POST http://localhost:8080/routes/1/from/A/to/C?maxStops=3
+
+curl -X POST -H "Content-Type: application/json" -d @path.json http://localhost:8080/distance/1
+
+curl -X POST http://localhost:8080/distance/1/from/A/to/C

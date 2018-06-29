@@ -3,7 +3,7 @@
   <groupId>com.avenuecode</groupId>
   <artifactId>java-challenge-ac001</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
+
   <name>java-challenge</name>
  <description>Test for avenuecode</description>
 
@@ -29,12 +29,15 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -50,5 +53,5 @@
 			</plugin>
 		</plugins>
 	</build>
-  
+
 </project>
